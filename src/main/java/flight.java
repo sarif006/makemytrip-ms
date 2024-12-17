@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class flight {
     @GetMapping("/flight")
-    public String getData() {return "Please book AirIndia" ; }
+    public String getData() {return "Please book seat 4567 AirIndia" ; }
 }
 
